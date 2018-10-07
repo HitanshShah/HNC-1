@@ -73,10 +73,25 @@ p {
 .bg-faded {
   background-color: rgba(255, 255, 255, 0.85);
 }
+.register1:link, .register1:visited{
+  text-decoration: none;
+  color: #000000;
+}
+.register1:hover{
+  color: #0000FF;
+  text-decoration: underline;
+}
+.register1:active{
+  text-decoration: none;
+  color: #000000;
+}
 
 #mainNav {
   background-color: rgba(47, 23, 15, 0.9);
   font-family: 'Raleway';
+  position: sticky;
+  top: 0;
+  z-index: +2;
 }
 
 #mainNav .navbar-brand {
@@ -154,7 +169,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  z-index: -1;
 }
 
 .cta .cta-inner {
@@ -174,7 +189,12 @@ p {
   right: -0.5rem;
   border: 0.25rem solid rgba(255, 255, 255, 0.85);
 }
-
+.about-heading-img{
+  background-image: url("../img/6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
 @media (min-width: 992px) {
   .about-heading .about-heading-img {
     position: relative;
@@ -183,7 +203,7 @@ p {
   .about-heading .about-heading-content {
     margin-top: -5rem;
     position: relative;
-    z-index: 1;
+    z-index: 0;
   }
 }
 

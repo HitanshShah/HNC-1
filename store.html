@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Business Casual - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        var images = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
+        $("body").css("background-image", 'url("img/'+ images[Math.floor(Math.random()*images.length)]+'")');
+      });
+    </script>
+
+  </head>
+
+  <body>
+
+    <h1 class="site-heading text-center text-white d-none d-lg-block">
+      <span class="site-heading-upper text-primary mb-3">A Free Bootstrap 4 Business Theme</span>
+      <span class="site-heading-lower">Business Casual</span>
+    </h1>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
+            </li>
+            <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="store.html">Help</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto" style="z-index: 0">
+            <div class="cta-inner text-center rounded">
+              <h2>How can you help?</h2>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <h4>Consult Individuals</h4>
+                    <p>
+                      Talking to people often in trouble or stress in person and a private space often helps them. <a class="register1" href="http://bit.ly/RealizeReg" target="new">Contact us</a> if you are willing to do us and we will contact you whenever we need your help
+                    </p>
+                  </div>
+                  <div class="col-sm-4">
+                    <h4>Conduct Motivational Sessions</h4>
+                    <p>
+                      Certain people do not like to share their problems with anyone, not even in private and at times can't handle the mental pressure. Such people, however, can be influenced through small gatherings. If you are a motivational speaker and would like to help, <a class="register1" href="http://bit.ly/RealizeReg" target="new">contact us</a>
+                    </p>
+                  </div>
+                  <div class="col-sm-4">
+                    <h4>Conduct Rehab Activities</h4>
+                    <p>
+                      Activities like meditation, sports, art, music, etc. often help people forget their problems and focusing their minds on a particular object, thought or activity to achieve a mentaly clear and emotionally calm state. If you are someone who conducts such activites, <a class="register1" href="http://bit.ly/RealizeReg" target="new">contact us</a>
+                    </p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section about-heading">
+      <div class="container">
+        <div class="img-fluid rounded about-heading-img mb-3 mb-lg-0"></div>
+        <div class="about-heading-content">
+          <div class="row">
+            <div class="col-xl-9 col-lg-10 mx-auto">
+              <div class="bg-faded rounded p-5">
+                <h2 class="section-heading mb-4">
+                  <span class="section-heading-upper">Want to help us but don't have enough time?</span>
+                  <span class="section-heading-lower">Help us financially</span>
+                </h2>
+                <p>We always appreciate people who reach to us and express their will to help us by conducting seminars, consultation sessions, etc. But not everyone can do these, and yet wish to help. We regularly conduct speaker sessions, personal chat sessions, activity sessions, etc. for which we need financial aid. You can always help us indirectly by <a href="#">donating us</a></p>
+                <p class="mb-0">The best feeling one can have is by making someone want to live a happy life again. They say that if someone lives a longer life because of you, that extra life is also added to your life. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer text-faded text-center py-5">
+      <div class="container">
+        <p class="m-0 small">Copyright &copy; Your Website 2018</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+  <!-- Script to highlight the active date in the hours list -->
+  <script>
+    $('.list-hours li').eq(new Date().getDay()).addClass('today');
+  </script>
+
+</html>
